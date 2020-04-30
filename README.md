@@ -25,7 +25,7 @@ function doGet(e){
   return handleResponse(e);
 }
 
-// Change sheet name if you want
+// Change sheet name if you want but should exactly on your spreadsheet
 var SHEET_NAME = "Sheet1";
 
 var SCRIPT_PROP = PropertiesService.getScriptProperties();
